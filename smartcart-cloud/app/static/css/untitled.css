@@ -1,0 +1,4 @@
+.btn:not(:disabled):not(.disabled) {
+  border-color: #ffffff;
+}
+

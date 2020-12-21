@@ -1,0 +1,8 @@
+opencv-python
+requests
+tensorflow
+picamera
+numpy==1.16.2
+protobuf
+boto3
+hx711

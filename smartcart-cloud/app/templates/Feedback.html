@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html style="height: 200px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - SmartCart</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome-all.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome5-overrides.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.min.css') }}" >
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="height: 96px;margin: 0px;padding: 23px;">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="{{ url_for('Registration') }}"><i class="fa fa-opencart" style="color: rgb(255,82,82);font-size: 41px;"></i>&nbsp;SmartCart</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive"
+                                                                                                                                                                                                                                                                     type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger" href="{{ url_for('AboutUs') }}">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('https://bildhpsmartcart.s3.eu-central-1.amazonaws.com/intro-bg.jpg');">
+        <div class="intro-body" style="height: 706px;">
+            <div class="container">
+                <div class="row" style="padding: -7px;margin: -32px;">
+                    <div class="col-xl-9 offset-xl-2">
+                        <section class="getintouch" style="width: 797px;margin: 0px;padding: -14px;background: rgba(255,255,255,0);">
+                            <div class="container modern-form" style="width: 753px;padding: 32px;margin: 28px;background: rgba(255,255,255,0.24);">
+                                <div class="text-center">
+                                    <h4 style="color: #ffffff;font-size: 31px;">Get in touch with <i class="fa fa-opencart" style="color: rgb(255,82,82);font-size: 41px;"></i>&nbsp;smartcart</h4>
+                                </div>
+                                <div class="modern-form__form-container" style="height: 361px;padding-top: 20px;">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="col col-contact">
+                                                <div class="form-group modern-form__form-group--padding-r"><input class="form-control input input-tr" type="text" placeholder="First Name" style="font-family: Cabin, sans-serif;">
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-contact">
+                                                <div class="form-group modern-form__form-group--padding-l"><input class="form-control input input-tr" type="text" placeholder="Email" style="font-family: Cabin, sans-serif;">
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <div class="form-group modern-form__form-group--padding-t"><textarea class="form-control input modern-form__form-control--textarea" placeholder="Message" style="font-family: Cabin, sans-serif;"></textarea>
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col text-center"><button class="btn btn-primary btn-circle" type="submit" style="width: 120px;text-align: center;background: rgb(255,82,82);border-width: 2px;">submit</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer style="padding: 41px;height: 76px;">
+        <div class="container text-center">
+            <p style="font-family: Cabin, sans-serif;">Copyright ©&nbsp;SmartCart 2020</p>
+        </div>
+    </footer>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="../static/js/script.min.js"></script>
+    <script src="../static/app.js"></script>
+</body>
+
+</html>

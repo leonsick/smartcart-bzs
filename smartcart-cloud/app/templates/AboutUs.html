@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html style="height: 200px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - SmartCart</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome-all.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome5-overrides.min.css') }}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.min.css') }}" >
+</head>
+
+<body id="page-top">
+<nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="{{ url_for('Registration') }}"><i class="fa fa-opencart"
+                                                                                                 style="color: rgb(255,82,82);font-size: 41px;"></i>&nbsp;SmartCart</a>
+        <button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive"
+                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu"><i class="fa fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item nav-link js-scroll-trigger"><a class="nav-link active js-scroll-trigger"
+                                                                   href="{{ url_for('AboutUs') }}">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="masthead" style="background-image:url('https://bildhpsmartcart.s3.eu-central-1.amazonaws.com/intro-bg.jpg');">
+    <div class="intro-body" style="height: 706px;">
+        <div class="container">
+            <div class="row">
+                <h1 class="brand-heading"
+                    style="font-size: 50px;width: 794px;margin: 201px;height: 208px;padding: -125px;margin-bottom: -32px;margin-top: 40px;">
+                    What do you need to know about <i class="fa fa-opencart" style="color: rgb(255,82,82);"></i>&nbsp;Smartcart&nbsp;
+                </h1>
+                <div class="container" style="margin-bottom: 49px;">
+                    <div class="row" style="margin: 0px;height: 135px;width: 1126px;">
+                        <div class="col-lg-8 col-xl-7 offset-xl-2 mx-auto" style="text-align: center;margin: -10px;">
+                            <h2></h2>
+                            <p style="font-family: Cabin, sans-serif;margin: 0px;width: 663px;text-align: center;"><i
+                                    class="fa fa-opencart" style="color: rgb(255,82,82);font-size: 30px;"></i>&nbsp;SMARTCART
+                                is part of University of Applied Science Konstanz lecture IoX-Coding Innovation. The
+                                project team develop a smart cart wich is able to
+                                recognize the goods in its basket itself. Furthermore with&nbsp;&nbsp;<i
+                                        class="fa fa-opencart" style="color: rgb(255,82,82);font-size: 30px;"></i>&nbsp;SMARTCART
+                                you get the oppertunity to bla bla bla TBD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="contact" class="content-section text-center" style="height: 123px;padding: 28px;">
+    <div class="container">
+        <div class="row" style="margin: 0px;height: 122px;">
+            <div class="col-lg-8 col-xl-7 offset-xl-2 mx-auto" style="text-align: center;margin: -10px;">
+                <h2>Contact us</h2>
+                <p style="font-family: Cabin, sans-serif;margin: 0px;text-align: center;">Feel free to
+                    leave us a <a href="{{ url_for('Feedback') }}">comment or&nbsp; feedback</a> <br>about your shopping
+                    experience with <i class="fa fa-opencart" style="color: rgb(255,82,82);font-size: 30px;"></i>&nbsp;SMARTCART!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer style="padding: 41px;height: 76px;">
+    <div class="container text-center">
+        <p style="font-family: Cabin, sans-serif;">Copyright ©&nbsp;SmartCart 2020</p>
+    </div>
+</footer>
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="../static/js/script.min.js"></script>
+<script src="../static/app.js"></script>
+</body>
+
+</html>

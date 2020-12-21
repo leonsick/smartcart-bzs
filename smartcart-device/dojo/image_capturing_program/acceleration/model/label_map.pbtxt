@@ -1,0 +1,48 @@
+item {
+    id: 1
+    name: 'apple'
+    display_name: 'Apple'
+}
+
+
+item {
+    id: 2
+    name: 'aubergine'
+    display_name: 'Aubergine'
+}
+
+item {
+    id: 3
+    name: 'banana'
+    display_name: 'Banana'
+}
+
+item {
+    id: 4
+    name: 'broccoli'
+    display_name: 'Broccoli'
+}
+
+item {
+    id: 5
+    name: 'cucumber'
+    display_name: 'Cucumber'
+}
+
+item {
+    id: 6
+    name: 'orange'
+    display_name: 'Orange'
+}
+
+item {
+    id: 7
+    name: 'paprika'
+    display_name: 'paprika'
+}
+
+item {
+    id: 8
+    name: 'pear'
+    display_name: 'Pear'
+}

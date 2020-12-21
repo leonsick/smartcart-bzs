@@ -1,0 +1,5 @@
+Flask
+requests
+jsonify
+boto3
+flask-socketio

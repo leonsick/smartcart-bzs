@@ -1,0 +1,12 @@
+apple
+banana
+beer
+paprika
+broccoli
+chips
+jam
+milk
+radish
+tomatosauce
+water
+
